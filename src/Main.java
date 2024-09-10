@@ -7,13 +7,13 @@ public class Main {
         ArrayList<String> linesA = new ArrayList<>();
         ArrayList<String> linesB = new ArrayList<>();
 
-        System.out.println("Input five lines...");
+        System.out.println("Input five lines:");
         for (int i = 0; i < 5; i++) {
             linesA.add(sc.nextLine());
         }
         System.out.println(linesA + "\n");
 
-        System.out.println("Now, another five...");
+        System.out.println("Five more!:");
         for (int i = 0; i < 5; i++) {
             linesB.add(sc.nextLine());
         }
